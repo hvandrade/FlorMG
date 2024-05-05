@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('fondo.jpg');
+    background-size: cover;
+}
+
+.flor {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+
+}
+
+.petalo {
+    position: absolute;
+    width: 100px;
+    height: 190px;
+    background-color: rgb(255, 255, 107);
+    border-radius: 90%;
+    overflow: hidden;
+    opacity: 0;
+}
+
+.petalo:nth-child(1) {
+    bottom: 90px;
+    right: 100px;
+    transform: rotate(135deg);
+    box-shadow: 9px 20px 0px black;
+    border: 3px solid darkviolet;
+    background-image: url('imagen1.jpg');
+    background-size: cover;
+}
+
+.petalo:nth-child(2) {
+    bottom: 120px;
+    left: 90px;
+    transform: rotate(0deg);
+    box-shadow: -9px -20px 0px black;
+    background-image: url('imagen2.jpg');
+    background-size: cover;
+    border: 3px solid darkviolet;
+}
+
+.petalo:nth-child(3) {
+    bottom: 90px;
+    right: -80px;
+    transform: rotate(-135deg);
+    box-shadow: 9px 16px 0px black;
+    background-image: url('imagen3.jpg');
+    background-size: cover;
+    border: 3px solid darkviolet;
+}
+
+.petalo:nth-child(4) {
+    top: 0px;
+    right: -110px;
+    transform: rotate(90deg);
+    box-shadow: -6px -20px 0px black;
+    background-image: url('imagen4.jpg');
+    background-size: contain;
+    border: 3px solid darkviolet;
+}
+
+.petalo:nth-child(5) {
+    top: 90px;
+    left: 180px;
+    transform: rotate(-45deg);
+    box-shadow: 5px 20px 0px black;
+    background-image: url('imagen5.jpg');
+    background-size: cover;
+    border: 3px solid darkviolet;
+}
+
+.petalo:nth-child(6) {
+    top: 120px;
+    left: 90px;
+    transform: rotate(-0deg);
+    box-shadow: 6px 20px 0px black;
+    background-image: url('imagen6.jpg');
+    background-size: cover;
+    border: 3px solid darkviolet;
+}
+
+.petalo:nth-child(7) {
+    top: 90px;
+    left: 0px;
+    transform: rotate(45deg);
+    box-shadow: 8px 18px 0px black;
+    background-image: url('imagen7.jpg');
+    background-size: cover;
+    border: 3px solid darkviolet;
+}
+
+.petalo:nth-child(8) {
+    top: 0px;
+    left: -28px;
+    transform: rotate(90deg);
+    box-shadow: 6px 20px 0px black;
+    background-image: url('imagen8.jpg');
+    background-size: contain;
+    border: 3px solid darkviolet;
+}
+
+.petalo:nth-child(9) {
+    width: 60px;
+    height: 60px;
+    top: 67px;
+    right: 26px;
+    background-color: salmon;
+    border: 3px solid darkviolet;
+}
+
+.footer-container {
+    background-color: purple;
+    color: white;
+    display: grid;
+    box-shadow: 8px 18px 0px black;
+    text-align: center;
+    margin-top: 350px;
+}
